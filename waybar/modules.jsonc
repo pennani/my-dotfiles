@@ -8,9 +8,6 @@
     "format": "{volume}% {icon}",
     "tooltip": true,
     "format-muted": "",
-    // "on-click": "pamixer -t",
-    // "on-scroll-up": "pamixer -i 5",
-    // "on-scroll-down": "pamixer -d 5",
     "scroll-step": 5,
     "format-icons": {
       "headphone": "",
@@ -21,26 +18,25 @@
     "format": "{icon}",
     "sort-by-number": true,
     "on-click": "activate",
-    "format-icons": {
-    "1": "2",
-    "2": "W",
-    "3": "S",
-    "4": "1",
-    "5": "2",
-    "6": "3",
-    "7": "1",
-    "8": "2",
-    "9": "3",
+    // "format-icons": {
+    // "1": "fasf",
+    // "2": "W",
+    // "3": "S",
+    // "4": "1",
+    // "5": "2",
+    // "6": "3",
+    // "7": "1",
+    // "8": "2",
+    // "9": "3",
   //   "urgent": "",
   //   "active": "",
   //   "default": ""
-  }
+  // }
   },
   "tray": {
     "icon-size": 21,
     "spacing": 10,
     "icons": {
-      "discord": "~/Downloads/wallpapers/vagabond-wallpaper.jpg"
     },
   }
 }
