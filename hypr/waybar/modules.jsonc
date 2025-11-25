@@ -1,0 +1,9 @@
+{
+  "clock": {
+    "format-alt": "{:%a, %d, %b  %H:%M"
+  }
+  // "sway/window":{
+  //   "max-length": 50
+  // }
+}
+
