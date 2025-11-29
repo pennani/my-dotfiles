@@ -3,68 +3,27 @@
 
 /* Global Settings */
 * {
-  border: none;
-  border-radius: 0;
-  font-family: "Nerd Font", "Font Awesome 6 Free", sans-serif;
-  font-weight: 900;
-  font-size: 14px;
-  min-height: 0;
+   border: none;
+   font-family: "Nerd Font", "Font Awesome 6 Free", sans-serif;
+   font-weight: 800;
 }
 
-/* Pretty sure this removes everything inbetween modules */
+/* The "window" of the bar. */
 window#waybar {
-  all:unset;
+  background-color: @color2;
+  border-bottom: 2px solid @color0;
+  color: @color0;
 }
-/* Workspaces */
+
 #workspaces button {
-  margin: 10 0 0 10;
-  padding: 0px 35px;
-  color: @lavender;
-  background-color: @crust;
-  /* box-shadow: inset 0 -3px transparent; */
-  border-radius: 10px;
+  background-color: @color5;
+  padding: 0 30 0 10;
+  margin: 0 -1 0 0;
+  border-radius: 5px;
 }
-/* Differentiate active workspace */
 #workspaces button.active {
-  color: black;
-  padding: 0px 35px;
-  background-color: @mauve;
-  border: 2px @lavender;
+  background-color: @color5;
+  border: 4px solid @color1;
+  box-shadow: 0px 16px 8px 3px @color0;
 }
 
-/* No clue on how to make the hover effect match the window */
-/* Just leave it for the time being */
-/* #workspaces button:hover { */
-/*   ... */
-/* } */
-/**/
-/* #workspaces button:hover *{ */
-/*   ... */
-/* } */
-
-/* Clock */
-#clock {
-  padding: 3px 15px;
-  color: @lavender;
-  border-radius: 5px;
-  margin: 10 0 0 0;
-  background-color: @crust;
-}
-
-/* Right modules clumped together */
-.modules-right {
-  border-radius: 5px;
-  color: @lavender;
-  padding: 0px 20px;
-  margin: 10 10 0 0;
-  background-color: @crust;
-}
-#pulseaudio {
-  margin: 0px 10px 0px 10px;
-}
-/* Removes network module that is base packaged in with tray for some reason  */
-#network {
-  padding: 0;
-  margin: 0;
-  font-size: 0;
-}

@@ -1,4 +1,8 @@
 [{
+  
+    "reload_style_on_change": true,
+},
+  {
     "include": "~/.config/waybar/modules.jsonc",
     "layer": "top",
     "position": "top",
@@ -10,6 +14,7 @@
     "irc": true,
 },
 {
+    "reload-style-on-change": true,
     "include": "~/.config/waybar/modules.jsonc",
     "layer": "top",
     // "height": 5,
@@ -21,6 +26,7 @@
     "irc": true,
 },
 {
+    "reload-style-on-change": true,
     "include": "~/.config/waybar/modules.jsonc",
     "layer": "top",
     // "height": 20,

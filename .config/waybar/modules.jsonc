@@ -18,8 +18,8 @@
     "format": "{icon}",
     "sort-by-number": true,
     "on-click": "activate",
-    // "format-icons": {
-    // "1": "fasf",
+    "format-icons": {
+    "1": "test",
     // "2": "W",
     // "3": "S",
     // "4": "1",
@@ -31,7 +31,7 @@
   //   "urgent": "",
   //   "active": "",
   //   "default": ""
-  // }
+  },
   },
   "tray": {
     "icon-size": 21,

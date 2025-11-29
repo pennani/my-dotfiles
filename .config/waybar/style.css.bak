@@ -1,0 +1,77 @@
+/* Premade colors I found on some random repo */
+@import "colors.css";
+
+/* Global Settings */
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "Nerd Font", "Font Awesome 6 Free", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  min-height: 0;
+  /* background-color: @color13; */
+}
+
+.module {
+}
+
+/* Waybar. */
+window#waybar {
+  /* Removes the "fluff" inbetween modules. */
+  /* all:unset; */
+  background: @color12;
+  
+}
+/* Workspaces */
+#workspaces button {
+  margin: 0 0 0 0;
+  padding: 0px 5px;
+  color: @color0;
+  background-color: @color1;
+  /* box-shadow: inset 0 -3px transparent; */
+  border-radius: 10px;
+}
+/* Differentiate active workspace */
+#workspaces button.active {
+  color: @color0;
+  padding: 0px 35px;
+  background-color: @color11;
+  border: 2px @lavender;
+}
+
+/* No clue on how to make the hover effect match the window */
+/* Just leave it for the time being */
+/* #workspaces button:hover { */
+/*   ... */
+/* } */
+/**/
+/* #workspaces button:hover *{ */
+/*   ... */
+/* } */
+
+/* Clock */
+#clock {
+  padding: 3px 15px;
+  color: @lavender;
+  border-radius: 5px;
+  margin: 10 0 0 0;
+  background-color: @crust;
+}
+
+/* Right modules clumped together */
+.modules-right {
+  border-radius: 5px;
+  color: @lavender;
+  padding: 0px 20px;
+  margin: 10 10 0 0;
+  background-color: @crust;
+}
+#pulseaudio {
+  margin: 0px 10px 0px 10px;
+}
+/* Removes network module that is base packaged in with tray for some reason  */
+#network {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
