@@ -6,24 +6,53 @@
    border: none;
    font-family: "Nerd Font", "Font Awesome 6 Free", sans-serif;
    font-weight: 800;
+   opacity: 1;
+   min-height: 0;
+   padding: 0;
+   margin: -2 0 0 0;
 }
 
 /* The "window" of the bar. */
 window#waybar {
-  background-color: @color2;
-  border-bottom: 2px solid @color0;
+  background-color: rgba(20, 20, 20, 0.8);
+  /* border-bottom: 2px solid @color0; */
   color: @color0;
 }
 
+#workspaces {
+  margin-left: 30px;
+  margin-bottom: 8px;
+}
+/* No clue what all property does tbh but it made them fit on the bar lol.
+ * Transparent border for active windows and black borders for inactive -
+ * button looks smaller with border.
+ */
 #workspaces button {
+  all: unset;
+  opacity: 0.2;
   background-color: @color5;
-  padding: 0 30 0 10;
-  margin: 0 -1 0 0;
-  border-radius: 5px;
+  padding: 6px 30px;
+  margin: 10 10 0 0;
+  border-radius: 3px;
+  border: 1px solid black;
 }
 #workspaces button.active {
-  background-color: @color5;
-  border: 4px solid @color1;
-  box-shadow: 0px 16px 8px 3px @color0;
+  background-color: @color1;
+  opacity: 1.0;
+  border: 1px solid transparent;
+  /* box-shadow: 16px 16px 16px 16px @color0; */
+}
+#window {
+  color: @color7;
+  margin: 0 0 0 50;
+}
+
+#clock {
+  color: @color7;
+  margin-top: 1px;
+}
+
+#windowcount {
+  color: @color7;
 }
 

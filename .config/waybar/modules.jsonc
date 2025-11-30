@@ -13,6 +13,7 @@
       "headphone": "",
       "headset": "",
       "default": ""
+    },
   },
     "hyprland/workspaces": {
     "format": "{icon}",
@@ -20,17 +21,6 @@
     "on-click": "activate",
     "format-icons": {
     "1": "test",
-    // "2": "W",
-    // "3": "S",
-    // "4": "1",
-    // "5": "2",
-    // "6": "3",
-    // "7": "1",
-    // "8": "2",
-    // "9": "3",
-  //   "urgent": "",
-  //   "active": "",
-  //   "default": ""
   },
   },
   "tray": {
@@ -38,7 +28,17 @@
     "spacing": 10,
     "icons": {
     },
+  },
+  "hyprland/window": {
+    "format": "{title}",
+    "max-length": 20
+    // if i ever wanted to do custom titles
+    // "rewrite": {
+      // "(.*) — Mozilla Firefox": "browser $1"
+    // },
+  },
+  "hyprland/windowcount": {
+    "format": "[{}]"
   }
-}
 }
 
