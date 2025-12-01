@@ -31,10 +31,8 @@ indexmv() {
   mv "$file" ~/cxm/1fe422
 }
 # Script to print out the index of each file in the current directory.
-indexdir() {
-  for dir in "$PWD"; do
-    echo "$PWD"
-  done
+indexls() {
+  find . -maxdepth 1 -mindepth 1 -type f,d -printf '%f\n' | sort | nl -s ":"
 }
 fastfetch
 cat .cache/wal/sequences
