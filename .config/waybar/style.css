@@ -19,6 +19,10 @@ window#waybar {
   color: @color0;
 }
 
+/* 
+##########################
+###### MODULES LEFT ######
+########################## */
 #workspaces {
   margin-left: 30px;
   margin-bottom: 8px;
@@ -30,6 +34,7 @@ window#waybar {
 #workspaces button {
   all: unset;
   opacity: 0.2;
+  color: black;
   background-color: @color5;
   padding: 6px 30px;
   margin: 10 10 0 0;
@@ -37,22 +42,43 @@ window#waybar {
   border: 1px solid black;
 }
 #workspaces button.active {
-  background-color: @color1;
+  background-color: @color5;
   opacity: 1.0;
   border: 1px solid transparent;
   /* box-shadow: 16px 16px 16px 16px @color0; */
 }
 #window {
   color: @color7;
-  margin: 0 0 0 50;
+  margin: 0 0 0 20;
+}
+#windowcount {
+  color: @color7;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 900;
 }
 
+/* 
+############################
+###### MODULES CENTER ######
+############################ */
 #clock {
   color: @color7;
   margin-top: 1px;
 }
 
-#windowcount {
+
+/* 
+###########################
+###### MODULES RIGHT ######
+########################### */
+.modules-right {
   color: @color7;
+  margin-right: 10px;
+}
+/* idk the icon is only 50% otherwise, */
+/* probably because of the margin rules all over the place lol */
+#pulseaudio {
+  padding: 10px;
 }
 

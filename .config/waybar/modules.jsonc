@@ -16,12 +16,13 @@
     },
   },
     "hyprland/workspaces": {
-    "format": "{icon}",
-    "sort-by-number": true,
-    "on-click": "activate",
-    "format-icons": {
-    "1": "test",
-  },
+    "format": "{windows}",
+    "window-rewrite-default": "",
+    // "on-click": "activate",
+    // "window-rewrite": {
+    // "class<firefox>": "🌍",
+    // "class<kitty>": "🖥️",
+  // },
   },
   "tray": {
     "icon-size": 21,
@@ -31,11 +32,15 @@
   },
   "hyprland/window": {
     "format": "{title}",
-    "max-length": 20
+    "max-length": 200,
     // if i ever wanted to do custom titles
-    // "rewrite": {
-      // "(.*) — Mozilla Firefox": "browser $1"
-    // },
+    "rewrite": {
+      "(.*) — Mozilla Firefox": "🌍 - $1",
+      "(.*)~": "🖥️ $1",
+      "nvim (.*)": "🧙‍♂️ $1",
+      "(.*)Vesktop": "Discord $1"
+
+    },
   },
   "hyprland/windowcount": {
     "format": "[{}]"
