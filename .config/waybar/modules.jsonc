@@ -35,11 +35,11 @@
     "max-length": 200,
     // if i ever wanted to do custom titles
     "rewrite": {
-      "(.*) — Mozilla Firefox": "🌍 - $1",
+      "(.*) — Mozilla Firefox": "🌍   $1",
     // Kitty
-      "(.*)~": "🖥️ $1",
-      "~(.*)": "🖥️ $1",
-      "nvim (.*)": "🧙‍♂️ $1",
+      "(.*)~": "🖥️   $1",
+      "~/(.*)": "🖥️   $1",
+      "nvim (.*)": "🧙‍♂️   $1",
       "(.*)Vesktop": "Discord $1"
 
     },

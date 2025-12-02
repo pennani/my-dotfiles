@@ -9,7 +9,7 @@
     "position": "top",
     // removes the top gap that I couldn't figure out with CSS.
     "margin-top": -1,
-    "modules-left": ["hyprland/workspaces", "hyprland/window", "hyprland/windowcount"],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock"],
     "modules-right": ["tray", "pulseaudio"],
     "output": "DP-1",
@@ -23,7 +23,7 @@
     // removes the top gap that I couldn't figure out with CSS.
     "margin-top": -1,
     "position": "top",
-    "modules-left": ["hyprland/workspaces", "hyprland/window", "hyprland/windowcount"],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock"],
     "modules-right": ["tray", "pulseaudio"],
     "output": "DP-2",
@@ -36,7 +36,7 @@
     // removes the top gap that I couldn't figure out with CSS.
     "margin-top": -1,
     "position": "top",
-    "modules-left": ["hyprland/workspaces", "hyprland/window", "hyprland/windowcount"],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock"],
     "modules-right": ["tray", "pulseaudio"],
     "output": "DP-3",
