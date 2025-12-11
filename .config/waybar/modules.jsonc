@@ -16,13 +16,10 @@
     },
   },
     "hyprland/workspaces": {
-    "format": "{windows}",
-    "window-rewrite-default": "",
-    // "on-click": "activate",
-    // "window-rewrite": {
-    // "class<firefox>": "🌍",
-    // "class<kitty>": "🖥️",
-  // },
+    // "format": "{icon}",
+    // "format-icons": {
+	    // "active": "",
+	    // "default": ""
   },
   "tray": {
     "icon-size": 21,
@@ -46,6 +43,13 @@
   },
   "hyprland/windowcount": {
     "format": "[{}]"
-  }
-}
+  },
+  // Come back to later but idk
+  "custom/kblayout": {
+   // "exec": "~/.config/scripts/kblayout_update.sh",
+   // "interval": 60,
+   // "signal": 1,
+   // "format": "Test: {text}"
 
+}
+}
